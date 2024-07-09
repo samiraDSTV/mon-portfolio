@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.fade {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out!important;
+}
+
+.fade.show {
+  opacity: 1;
+}
