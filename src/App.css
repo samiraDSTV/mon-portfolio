@@ -45,3 +45,62 @@
 .fade.show {
   opacity: 1;
 }
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  animation: typing 4s steps(50) infinite, blink-caret 0.75s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 65% }
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+}
+.img-height-50{
+ /*  height: 300px!important; */
+}
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  border: 5px solid #fa9108;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-image:hover {
+  opacity: 1;
+}
+
+
+
+@media (max-width: 991px) {.content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  /* padding: 100px; */
+  text-align: center;
+}
+  .profile-image {
+    margin-top: 30px;
+  }
+  .text-end {
+    text-align: center !important;
+  }
+}

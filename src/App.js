@@ -13,7 +13,7 @@ import Projet from './components/Projet';
 import Contact from './components/Contact';
 import About from './components/About';
 import Footer from './components/Footer'; // Ajout du composant Footer
-import MyComponent from './components/MyComponent'; // Ajout du composant Footer
+/* import MyComponent from './components/MyComponent'; */ // Ajout du composant Footer
 import CountdownTimer from './components/MyComponent';
 
 function App() {
