@@ -1,38 +1,9 @@
 import React from 'react';
 
-const Navbar = () => { 
+const Contact = () => { 
     return (
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> <i class='fa fa-home'></i> Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class='fa fa-user'></i>A propos de moi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class='fa fa-home'></i>Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class='fa fa-home'></i>Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class='fa fa-home'></i>contact</a>
-                        </li>
-                    </ul>
-                    <span class="navbar-text">
-                        <i class='fa fa-sun'></i>
-                    </span>
-                </div>
-            </div>
-        </nav>
+        <div className="">contact</div>
     )
  };  
 
- export default Navbar;
+ export default Contact;
